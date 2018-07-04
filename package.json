@@ -1,0 +1,18 @@
+{
+  "name": "@reaktivo/async-flow",
+  "version": "1.0.0",
+  "description": "Composes and awaits single-argument functions from left to right.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "develop": "tsc -w",
+    "prepublish": "npm run -s build"
+  },
+  "keywords": [
+    "async",
+    "flow"
+  ],
+  "author": "m@reaktivo.com",
+  "license": "MIT"
+}
