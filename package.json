@@ -1,6 +1,6 @@
 {
   "name": "@reaktivo/async-flow",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Composes and awaits single-argument functions from left to right.",
   "main": "dist/index.js",
   "scripts": {
