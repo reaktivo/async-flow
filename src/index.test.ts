@@ -1,4 +1,3 @@
-/// <reference types="jest" />
 import asyncFlow from ".";
 
 describe("async-flow", () => {
