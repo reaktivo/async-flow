@@ -2,6 +2,7 @@
   "name": "@reaktivo/async-flow",
   "version": "1.0.6",
   "description": "Composes and awaits single-argument functions from left to right.",
+  "author": "Marcel Miranda <m@reaktivo.com>",
   "main": "dist/index.js",
   "scripts": {
     "test": "jest",
@@ -17,7 +18,6 @@
     "async",
     "flow"
   ],
-  "author": "m@reaktivo.com",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^23.1.4",
