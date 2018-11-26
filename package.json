@@ -9,6 +9,10 @@
     "develop": "tsc -w",
     "prepublish": "npm run -s build"
   },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/reaktivo/async-flow.git"
+  },
   "keywords": [
     "async",
     "flow"
