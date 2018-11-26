@@ -1,6 +1,6 @@
 {
   "name": "@reaktivo/async-flow",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Composes and awaits single-argument functions from left to right.",
   "main": "dist/index.js",
   "scripts": {
@@ -10,8 +10,8 @@
     "prepublish": "npm run -s build"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/reaktivo/async-flow.git"
+    "type": "git",
+    "url": "https://github.com/reaktivo/async-flow.git"
   },
   "keywords": [
     "async",
