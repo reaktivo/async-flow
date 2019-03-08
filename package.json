@@ -8,8 +8,8 @@
     "test": "jest",
     "build": "pack build",
     "develop": "tsc -w",
-    "publish": "npm run build",
-    "prepublishOnly": "npm test"
+    "publish": "pack publish",
+    "prepublishOnly": "npm test && npm run build"
   },
   "repository": {
     "type": "git",
