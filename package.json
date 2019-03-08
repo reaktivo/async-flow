@@ -6,9 +6,9 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "jest",
-    "build": "tsc",
+    "build": "pack build",
     "develop": "tsc -w",
-    "prepublish": "rm -rf dist && npm run -s build"
+    "publish": "pack publish"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,33 @@
     "async",
     "flow"
   ],
+  "@pika/pack": {
+    "pipeline": [
+      [
+        "@pika/plugin-standard-pkg",
+        {
+          "exclude": [
+            "**/*.test.ts"
+          ]
+        }
+      ],
+      [
+        "@pika/plugin-build-node"
+      ],
+      [
+        "@pika/plugin-build-web"
+      ],
+      [
+        "@pika/plugin-build-types"
+      ]
+    ]
+  },
   "license": "MIT",
   "devDependencies": {
+    "@pika/plugin-build-node": "^0.3.14",
+    "@pika/plugin-build-types": "^0.3.14",
+    "@pika/plugin-build-web": "^0.3.14",
+    "@pika/plugin-standard-pkg": "^0.3.14",
     "@types/jest": "^24.0.9",
     "jest": "^24.3.1",
     "ts-jest": "^24.0.0",
