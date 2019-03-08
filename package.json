@@ -1,6 +1,6 @@
 {
   "name": "@reaktivo/async-flow",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Composes and awaits single-argument functions from left to right.",
   "author": "Marcel Miranda <m@reaktivo.com>",
   "main": "dist/index.js",
@@ -20,10 +20,10 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "@types/jest": "^23.1.4",
-    "jest": "^23.6.0",
-    "ts-jest": "^23.0.0",
-    "typescript": "^2.9.2"
+    "@types/jest": "^24.0.9",
+    "jest": "^24.3.1",
+    "ts-jest": "^24.0.0",
+    "typescript": "^3.3.3333"
   },
   "jest": {
     "transform": {
